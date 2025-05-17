@@ -80,8 +80,6 @@ body {
   align-items: center;
   justify-content: center;
   padding: 12px 28px;
-  width: 118px;
-  height: 48px;
 }
 .log-a {
   font-weight: 600;
@@ -106,7 +104,6 @@ body {
   color: var(--orange-col);
 }
 .Aw-tools p {
-  font-weight: 400;
   line-height: 1.6;
   letter-spacing: 0%;
   color: var(--white-55);
@@ -157,8 +154,7 @@ body {
   text-transform: capitalize;
 }
 .Aw-butt {
-  width: 130.43px;
-  height: 48px;
+  padding: 12px 36px;
   border-radius: 8px;
   font-weight: 600;
   color: var(--white-color);
@@ -174,10 +170,10 @@ body {
   height: 58px;
   gap: 8px;
 }
-.M-pop {
+.M-popular {
   margin-bottom: 200px;
 }
-.d-pop {
+.d-popular {
   padding: 0;
 }
 .dm-list2 {
@@ -192,9 +188,10 @@ body {
   color: var(--white-90);
   margin-bottom: 25px;
 }
-.dm-p {
+.M-popular-text {
   color: var(--white-55);
   font-size: 18px;
+  font-weight: 500;
   line-height: 1.6;
   text-align: center;
   width: 427px;
@@ -232,7 +229,6 @@ body {
 }
 .d-most {
   display: flex;
-  width: 100%;
 }
 .m-item h4 {
   font-size: 24px;
@@ -248,9 +244,7 @@ body {
   height: 64px;
   margin-right: 30px;
 }
-.m-p {
-  margin: 0;
-  padding: 0;
+.description {
   line-height: 1.8;
   color: var(--white-55);
 }
@@ -347,8 +341,7 @@ body {
   justify-content: center;
 }
 .load {
-  width: 184px;
-  height: 84px;
+  padding: 17px 38px;
   border: 1px solid var(--white-10);
   border-radius: 8px;
   font-size: 20px;
@@ -360,12 +353,20 @@ body {
   text-transform: uppercase;
 }
 .brand {
+  padding: 0;
+  margin-bottom: 200px;
+}
+.d-brand {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  height: 253px;
+  padding: 55px 83px;
   border-radius: 25px;
-  background-color: var(--gray-col);
+  background: linear-gradient(
+    55deg,
+    rgba(40, 48, 54, 0.4) 0%,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(40, 48, 54, 0.4) 100%
+  );
 }
 .brand-list {
   display: flex;
@@ -385,4 +386,108 @@ body {
   font-weight: 500;
   color: var(--white-80);
   margin-bottom: 55px;
+}
+.zeplin {
+  width: 56px;
+  height: 44px;
+  margin-right: 30px;
+}
+.newt-title {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--white-90);
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.newt-description {
+  width: 427px;
+  height: 90px;
+  color: var(--white-55);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-bottom: 60px;
+}
+.newt-description::first-letter {
+  text-transform: uppercase;
+}
+.Exp-more {
+  padding: 16px 40px;
+  border: none;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--white-color);
+  background-color: var(--orange-col);
+}
+.Exp-more::first-letter {
+  text-transform: uppercase;
+}
+.new-tool-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 15px;
+  width: 288px;
+  height: 284px;
+  padding: 28px 21px;
+  background-color: var(--back-col);
+}
+.d-new-tool {
+  display: flex;
+}
+.new-tool-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--white-78);
+  margin-bottom: 6px;
+}
+.new-tool-title::first-letter {
+  text-transform: uppercase;
+}
+.d-nt-title > p {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: var(--yellow);
+}
+.new-tool-desription {
+  font-size: 14px;
+  line-height: 2.14;
+  color: var(--white-55);
+}
+.new-tool-desription::first-letter {
+  text-transform: uppercase;
+}
+.phpstorm {
+  width: 64px;
+  height: 64px;
+  margin-right: 30px;
+}
+.php {
+  text-transform: uppercase;
+}
+.toolbox {
+  width: 64px;
+  height: 64px;
+  margin-right: 30px;
+}
+.procreate {
+  width: 56px;
+  height: 56px;
+  margin-right: 30px;
+}
+.new-tool {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.new-tool-list {
+  display: flex;
+  justify-content: flex-end;
+  gap: 24px;
+  margin-bottom: 50px;
+}
+.new-tool-list2 {
+  display: flex;
+  justify-content: flex-end;
 }
