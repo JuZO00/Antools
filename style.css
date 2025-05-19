@@ -518,13 +518,13 @@ body {
     rgba(40, 48, 54, 0.4) 100%
   );
 }
-.d-Ronald{
+.d-Ronald {
   display: flex;
   justify-content: center;
   margin-bottom: 108px;
 }
-.Ronald-Richard{
-  margin-right: 57px; 
+.Ronald-Richard {
+  margin-right: 57px;
 }
 .d-descr-ron > p {
   width: 440px;
@@ -538,6 +538,44 @@ body {
 .description-ron {
   text-transform: uppercase;
 }
-.Ron-Richard{
+.Ron-Richard {
   margin-bottom: 250px;
+}
+.contributor-title {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--white-90);
+  margin-bottom: 25px;
+}
+.contributor-title::first-letter {
+  text-transform: uppercase;
+}
+.contributor-desc-letter {
+  text-transform: uppercase;
+}
+.contributor-desc {
+  text-align: center;
+  width: 427px;
+  margin-bottom: 100px;
+}
+.d-contributor {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.d-contributor > p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: var(--white-55);
+}
+.button-contributor {
+  text-transform: capitalize;
+  border: none;
+  background-color: var(--orange-col);
+  color: var(--white-color);
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 12px 36px;
 }
