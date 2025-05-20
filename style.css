@@ -579,3 +579,21 @@ body {
   border-radius: 8px;
   padding: 12px 36px;
 }
+.input-enter-email {
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: var(--white-38);
+}
+.enter-email {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px 8px 24px;
+  width: 549px;
+  border-radius: 15px;
+  background-color: var(--input);
+}
+.email-inp{
+  margin-bottom: 240px;
+}
