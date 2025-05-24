@@ -33,7 +33,6 @@ body {
   width: 1254px;
   padding: 0 15px;
   margin: 0 auto;
-  border: 2px solid red;
 }
 .head {
   display: flex;
@@ -126,7 +125,7 @@ body {
   justify-content: space-between;
   width: fit-content;
   gap: 10px;
-  width: 497.66px;
+  width: 526.66px;
   height: 64px;
   border-radius: 15px;
   background-color: var(--input);
@@ -139,12 +138,13 @@ body {
   margin-right: 13.04px;
 }
 .d-inp {
+  width: 350px;
   font-size: 14px;
   display: flex;
   align-items: center;
 }
 .d-inp input {
-  width: 190px;
+  width: 330px;
   height: 21px;
   background: transparent;
   border: none;
@@ -580,6 +580,7 @@ body {
   padding: 12px 36px;
 }
 .input-enter-email {
+  width: 350px;
   font-size: 14px;
   border: none;
   outline: none;
