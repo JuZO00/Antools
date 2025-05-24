@@ -12,6 +12,7 @@
   --input: #283036;
   --orange-col: #ff6e30;
   --white-10: rgba(255, 255, 255, 0.1);
+  --white-15: rgba(255, 255, 255, 0.15);
   --white-38: rgba(255, 255, 255, 0.38);
   --white-55: rgba(255, 255, 255, 0.55);
   --white-78: rgba(255, 255, 255, 0.78);
@@ -116,7 +117,6 @@ body {
   background-image: url(./image/Mask\ Group.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
   padding-top: 178px;
   margin-bottom: 200px;
 }
@@ -594,6 +594,110 @@ body {
   border-radius: 15px;
   background-color: var(--input);
 }
-.email-inp{
+.email-inp {
   margin-bottom: 240px;
+}
+.foot {
+  outline: top var(--white-15);
+}
+.outline {
+  width: 100%;
+  height: 1px;
+  background-color: var(--white-15);
+}
+.foot {
+  padding: 70px;
+}
+.foot-list {
+  width: 260px;
+  height: 183px;
+}
+.foot-logo {
+  margin-right: 12px;
+}
+.foot-item-logo {
+  margin-bottom: 25px;
+}
+.foot-item-logo > a {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 600;
+  color: var(--white-90);
+}
+.foot-item-title {
+  margin-bottom: 20px;
+}
+.foot-item-title > h5 {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--white-90);
+  text-transform: capitalize;
+}
+.foot-item > p {
+  font-size: 14px;
+  line-height: 25px;
+  color: var(--white-55);
+}
+.foot-p-letter {
+  text-transform: uppercase;
+}
+.foot-list-contact {
+  width: 197px;
+  height: 142px;
+}
+.foot-item-title {
+  margin-bottom: 20px;
+}
+.foot-item-title > h4 {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--white-90);
+}
+.foot-contact-item {
+  font-weight: 500;
+  color: var(--white-55);
+  margin-bottom: 10px;
+}
+.location {
+  text-transform: capitalize;
+}
+.foot-cat-list {
+  width: 112px;
+  height: 108px;
+}
+.foot-cat-title {
+  margin-bottom: 20px;
+}
+.foot-cat-title > h4 {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--white-90);
+}
+.foot-cat-item {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--white-55);
+  margin-bottom: 10px;
+}
+.foot-info-title {
+  margin-bottom: 20px;
+}
+.foot-info-title > h4 {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--white-90);
+}
+.foot-info-item {
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--white-55);
+  margin-bottom: 10px;
+}
+.footer-sec-list {
+  display: flex;
+  justify-content: space-between;
 }
