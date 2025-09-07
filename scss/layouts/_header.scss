@@ -1,0 +1,48 @@
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1214.74px;
+  height: 48px;
+  margin-top: 26px;
+}
+.nav-list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.nav-cat {
+  font-weight: 500;
+  color: var(--white-55);
+}
+.nav-item::first-letter {
+  text-transform: uppercase;
+}
+.log-ul {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 41px;
+}
+.sp-log::first-letter {
+  text-transform: uppercase;
+}
+.log-a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 28px;
+}
+.log-a {
+  font-weight: 600;
+  color: var(--white-78);
+}
+.log-a:hover,
+.log-a:focus {
+  border-radius: 8px;
+  background-color: var(--orange-col);
+  color: var(--two-white);
+}

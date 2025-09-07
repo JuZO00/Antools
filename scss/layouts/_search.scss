@@ -1,0 +1,67 @@
+.Aw-tools p {
+  line-height: 1.6;
+  letter-spacing: 0%;
+  color: var(--white-55);
+  width: 440px;
+  height: 60px;
+  margin-bottom: 60px;
+}
+.Aw-tools {
+  background-image: url(./image/Mask\ Group.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 178px;
+  margin-bottom: 200px;
+}
+.Aw-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: fit-content;
+  gap: 10px;
+  width: 526.66px;
+  height: 64px;
+  border-radius: 15px;
+  background-color: var(--input);
+  padding: 8px 11.04px 8px 18.06px;
+  margin-bottom: 110px;
+}
+.search-icon {
+  width: 24.08px;
+  height: 24px;
+  margin-right: 13.04px;
+}
+.d-inp {
+  width: 350px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+.d-inp input {
+  width: 330px;
+  height: 21px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: var(--white-38);
+}
+.Aw-butt {
+  text-transform: capitalize;
+}
+.Aw-butt {
+  padding: 12px 36px;
+  border-radius: 8px;
+  font-weight: 600;
+  color: var(--white-color);
+  background-color: var(--orange-col);
+  border: none;
+}
+.soc-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 190px;
+  height: 58px;
+  gap: 8px;
+}

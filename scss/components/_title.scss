@@ -1,0 +1,117 @@
+.Aw-title {
+  font-size: 50px;
+  font-weight: 500;
+  line-height: 140%;
+  width: 600px;
+  height: 140px;
+  color: var(--white-color);
+  margin-bottom: 30px;
+}
+.Aw-title span {
+  color: var(--orange-col);
+}
+.m-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--white-90);
+  margin-bottom: 25px;
+}
+.title-sketch {
+  text-transform: capitalize;
+}
+.title-VS {
+  text-transform: capitalize;
+}
+.title-notion {
+  text-transform: capitalize;
+}
+.title-slack {
+  text-transform: capitalize;
+}
+.title-invision {
+  text-transform: capitalize;
+}
+.title-fig {
+  text-transform: uppercase;
+}
+.brand-title::first-letter {
+  text-transform: uppercase;
+}
+.brand-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--white-80);
+  margin-bottom: 55px;
+}
+.newt-title {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--white-90);
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
+.new-tool-title {
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--white-78);
+  margin-bottom: 6px;
+}
+.new-tool-title::first-letter {
+  text-transform: uppercase;
+}
+.d-nt-title > p {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: var(--yellow);
+}
+.contributor-title {
+  font-size: 48px;
+  font-weight: 500;
+  color: var(--white-90);
+  margin-bottom: 25px;
+}
+.contributor-title::first-letter {
+  text-transform: uppercase;
+}
+.foot-item-title {
+  margin-bottom: 20px;
+}
+.foot-item-title > h5 {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--white-90);
+  text-transform: capitalize;
+}
+.foot-item-title {
+  margin-bottom: 20px;
+}
+.foot-item-title > h4 {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--white-90);
+}
+.foot-cat-title {
+  margin-bottom: 20px;
+}
+.foot-cat-title > h4 {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--white-90);
+}
+.foot-info-title {
+  margin-bottom: 20px;
+}
+.foot-info-title > h4 {
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--white-90);
+}

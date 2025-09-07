@@ -1,0 +1,48 @@
+.contributor-desc-letter {
+  text-transform: uppercase;
+}
+.contributor-desc {
+  text-align: center;
+  width: 427px;
+  margin-bottom: 100px;
+}
+.d-contributor {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.d-contributor > p {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 30px;
+  color: var(--white-55);
+}
+.button-contributor {
+  text-transform: capitalize;
+  border: none;
+  background-color: var(--orange-col);
+  color: var(--white-color);
+  font-weight: 600;
+  border-radius: 8px;
+  padding: 12px 36px;
+}
+.input-enter-email {
+  width: 350px;
+  font-size: 14px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: var(--white-38);
+}
+.enter-email {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px 8px 24px;
+  width: 549px;
+  border-radius: 15px;
+  background-color: var(--input);
+}
+.email-inp {
+  margin-bottom: 240px;
+}
